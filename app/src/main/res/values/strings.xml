@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BTController</string>
+    <string name="bt_not_sup">Bluetooth is not supported on your device.</string>
+    <string name="switch_button">Switch state!</string>
+    <string name="connect_button">Connect to Arduino board!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="btn_speak">Tap on mic to speak</string>
+    <string name="switch_state">switch</string>
+    <string name="blink">blink</string>
+    <string name="glow">glow</string>
+    <string name="begin">Hey there!</string>
+    <string name="try_again">Try again!</string>
+
+    <string name="led1_on">LED 1 ON</string>
+    <string name="led1_off">LED 1 OFF</string>
+    <string name="led1_on_1">led one on</string>
+    <string name="led1_on_2">led 1 on</string>
+    <string name="led1_on_3">led won on</string>
+    <string name="led1_off_1">led 1 off</string>
+    <string name="led1_off_2">led 1 of</string>
+    <string name="led1_off_3">led one off</string>
+    <string name="led1_off_4">led one of</string>
+    <string name="led1_off_5">led won off</string>
+    <string name="led1_off_6">led won of</string>
+
+    <string name="led2_on">LED 2 ON</string>
+    <string name="led2_off">LED 2 OFF</string>
+    <string name="led2_on_1">led two on</string>
+    <string name="led2_on_2">led 2 on</string>
+    <string name="led2_on_3">led to on</string>
+    <string name="led2_off_1">led two off</string>
+    <string name="led2_off_2">led 2 off</string>
+    <string name="led2_off_3">led to off</string>
+    <string name="led2_off_4">led two of</string>
+    <string name="led2_off_5">led 2 of</string>
+    <string name="led2_off_6">led to of</string>
+
+    <string name="led3_on">LED 3 ON</string>
+    <string name="led3_off">LED 3 OFF</string>
+    <string name="led3_on_1">led three on</string>
+    <string name="led3_on_2">led 3 on</string>
+    <string name="led3_off_1">led three off</string>
+    <string name="led3_off_2">led 3 of</string>
+    <string name="led3_off_3">led three off</string>
+    <string name="led3_off_4">led 3 of</string>
+
+</resources>

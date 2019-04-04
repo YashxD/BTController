@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient">
+
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="50dp"
+        android:id="@+id/button_switch"
+        android:layout_gravity="center"
+        android:text="@string/switch_button"/-->
+
+    <TextView
+        android:id="@+id/textview_speechout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/begin"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/button_speechinput"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="111dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico_mic"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_speechinput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:text="@string/btn_speak"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/connect_button"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@null"/>
+
+</RelativeLayout>
