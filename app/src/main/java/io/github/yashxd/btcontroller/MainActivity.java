@@ -198,6 +198,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void signalArduino(String input) {
+        //Compares the input as processed by the Speech recognition API and identifies the command by Hit-and-Trial.
+        //The command is stored in the String command. To add a custom message, store it in the same variable and skip the if-else-if tree.
+
         if(input.equals(getString(R.string.switch_state)))
             command = "1";
         else if(input.equals(getString(R.string.blink)))
@@ -251,6 +254,8 @@ public class MainActivity extends AppCompatActivity {
             txtSpeechInput.setText(getString(R.string.try_again));
             Toast.makeText(this, "Please input a valid command!", Toast.LENGTH_SHORT).show();
         }
+
+        //Send data to Arduino.
         try {
             outputStream.write(command.getBytes());
         } catch (IOException e) {
